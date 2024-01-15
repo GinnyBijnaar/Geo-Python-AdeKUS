@@ -88,21 +88,21 @@ For example, on macOS or Linux you would do the following.
     cd python-environments
     
     # Create the environment using mamba
-    conda env create -f geo-python-student.yml
+    conda env create -f inl_inf_student.yml
 
     # Activate the new environment and update Jupyter
     # NOTE: conda is used to activate an environment!
-    conda activate geo-python-student
+    conda activate inl_inf_student
     sh postBuild
 
-This creates a new Python virtual environment called ``geo-python-student``, which contains the packages listed in the file ``geo-python-student.yml``. The new environment is helpful because it will be isolated from other Python packages you might install on your computer and ensure you have all of the packages needed for this course. Finally, the last steps will ensure that the Jupyter environment in the new Python installation has all of its extensions enabled (such as ``jupyterlab-git``).
+This creates a new Python virtual environment called ``inl_inf_student``, which contains the packages listed in the file ``inl_inf_student.yml``. The new environment is helpful because it will be isolated from other Python packages you might install on your computer and ensure you have all of the packages needed for this course. Finally, the last steps will ensure that the Jupyter environment in the new Python installation has all of its extensions enabled (such as ``jupyterlab-git``).
 
 To use the environment (since it will not be the default environment on your computer) you should type something like the following whenever you open a terminal window to use Python.
 
 .. code-block:: bash
 
     # Activate the your Python environment
-    conda activate geo-python-student
+    conda activate inl_inf_student
     
 
 Running JupyterLab

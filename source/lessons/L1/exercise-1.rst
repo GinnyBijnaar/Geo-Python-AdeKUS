@@ -26,23 +26,19 @@ Part 1 - Sign up for GitHub
 3. Enter a username, email address, and password. Click Create an account.
 4. When prompted to select a plan, choose the free option.
 
-Part 2 - Discord
+Part 2 - Moodle
 ----------------
 
-*This part is only for registered students. We have sent an invite link to Discord to all registered participants before the first lesson.*
-*Please contact the course instructors via email in case you are registered for the course, but don't have access to Discord.*
+*Enter your Github Username in the Assignment on Moodle (Lesson 1).*
 
 .. figure:: img/Discord-logo.png
    :width: 250px
    :class: dark-light
 
-1. Go to our **Discord** page at https://discord.com/channels/1140629215608315964/1140629216082280470.
-2. **Post a new message** in the ``#week-1`` channel with your **full name, GitHub username, course code** (GEOK3001 or GEOG-329-1).
+1. Go to our **Moodle** course.
+2. Locate the ** GitHub Username ** assignment under **Lesson 1**, and enter the GitHub Username that you created with your uvs-email account.
 
-For example, ``Dave Whipp, davewhipp, GEOK3001`` or ``Kamyar Hasanzadeh, kamyar68, GEOG-329-1`` (please use comma to separate the different parts).
-This will help us know you were able to create your account, that you have also figured out how to use Discord, and we'll know who is who on GitHub :).
-
-Students from other universities: you can add the name of your home institution (Aalto / Turku / Oulu) instead of the course code like this: ``Tua Nylén, tuanylen, Turku``.
+This will help us know you were able to create your account, that you have also figured out how to use Moodle, and we'll know who is who on GitHub :).
 
 .. note::
 

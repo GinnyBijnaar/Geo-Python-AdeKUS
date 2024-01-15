@@ -13,45 +13,35 @@ Terms are listed in alphabetical order in English. Finnish terms and definitions
 
 .. glossary::
 
-  data type (*tietotyyppi*)
+  data type 
      An attribute defining the characteristics of a value in a program. For example, type `int` is an integer (whole number).
-
-     *Definition to be given in Finnish.*
-
-  function (*funktio*)
+   
+  function 
      A reusable piece of code that performs a single action.
 
-     *Definition to be given in Finnish.*
 
-  index (*taulukko*)
+  index 
      A number indicating the location of a specific value stored in Python lists or tuples. The first index value of list is always ``0``.
 
-     *Definition to be given in Finnish.*
-
-  library (*ohjelmakirjasto*)
+    
+  library 
      A group of related modules.
 
-     *Definition to be given in Finnish.*
 
-  list (*lista*)
+  list 
      A data type in Python that can be used to store collections of values. The data in lists can be heterogeneous and data can be added or removed from lists. Index values can be used to access invididual list items.
 
-     *Definition to be given in Finnish.*
-
-  module (*moduuli*)
+    module 
      A file containing Python definitions and statements. Module files have the ``.py`` file extension.
 
-     *Definition to be given in Finnish.*
 
-  script (*ohjelma*)
+  script 
      A dedicated document for writing Python code that you can execute. Python script files should always have the ``.py`` file extension.
 
-     *Definition to be given in Finnish.*
 
-  variable (*muuttuja*)
+  variable 
      A way of storing values in the memory of the computer using specific names that you define.
 
-     *Definition to be given in Finnish.*
 
 - **Data types**
 
