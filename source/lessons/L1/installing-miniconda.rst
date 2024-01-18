@@ -61,14 +61,14 @@ The steps for installing the Geo-Python packages are below.
 Downloading the Python environment files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The files needed for creating the Geo-Python environment can be  found on Moodle under Lesson 1, or `on GitHub <https://github.com/geo-python/python-environments/>`__.
+The files needed for creating the Geo-Python environment can be  found on Moodle under Lesson 1, or `on GitHub <https://github.com/GinnyBijnaar/Geo-Python-AdeKUS/python-environments/>`__.
 
 **If you are already familiar with using git**, you can clone the repository containing the files by typing
 
 .. code-block:: bash
 
     # Clone Geo-Python environment files
-    git clone https://github.com/geo-python/python-environments/
+    git clone https://github.com/GinnyBijnaar/Geo-Python-AdeKUS/python-environments/
 
 **If you are not familiar with git**, you can visit the `GitHub repository with the environment files <https://github.com/geo-python/python-environments/>`__, click on the green **Code** button, and select **Download ZIP** to download a copy of the files.
 
