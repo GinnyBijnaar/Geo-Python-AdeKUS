@@ -125,19 +125,19 @@ Getting the lesson notebooks
 ----------------------------
 
 In order to be able to follow the course lessons it may also be helpful to have a copy of the course notebooks.
-You can download a copy of the course notebooks from `<https://github.com/geo-python/notebooks.git>`_ by clicking on the **Code** button and then selecting **Download ZIP**.
+You can download a copy of the course notebooks from `<https://github.com/GinnyBijnaar/Geo-Python-AdeKUS.git>`_ by clicking on the **Code** button and then selecting **Download ZIP**.
 Alternatively, once you are familiar with git, you can clone the course notebook repository by typing
 
 .. code-block:: bash
 
-    git clone https://github.com/geo-python/notebooks.git
+    git clone https://github.com/GinnyBijnaar/Geo-Python-AdeKUS/notebooks.git
 
 The command above will clone the notebook files into a directory titled ``notebooks``.
 
 Additional notes
 ----------------
 
-You can install new packages using the `conda install`__ command.
+You can install new packages using the `conda install` command.
 The basic syntax for installing packages is ``conda install package-name``.
 
 **Installing the pandas package from the conda-forge channel:**
