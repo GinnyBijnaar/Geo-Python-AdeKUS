@@ -16,12 +16,15 @@ but Miniconda allows us to save some disk space and avoid package conflicts (imp
 
 In case you already have Anaconda installed on your computer, you can continue using that during the Geo-Python course without a problem. **However, if you are new to Python and have not yet installed anything,** we recommend you start by installing `Miniconda  <https://docs.conda.io/en/latest/miniconda.html>`_ on your computer.
 
+.. note::
+
+    For this course, you need a Windows pc or laptop, running a **64 bit version of Windows 10 or higher**. 
 
 Install Miniconda
 -----------------
 
 You can find several versions of Miniconda for different operating systems on the `Miniconda dowload page <https://docs.conda.io/en/latest/miniconda.html>`__.
-Details on the installation for Windows, macOS and Linux users below.
+Details on the installation for Windows users below. Contact the lecturer if you have a different operating system.
 
 .. note::
 
@@ -58,7 +61,7 @@ The steps for installing the Geo-Python packages are below.
 Downloading the Python environment files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The files needed for creating the Geo-Python environment can be `found on GitHub <https://github.com/geo-python/python-environments/>`__.
+The files needed for creating the Geo-Python environment can be  found on Moodle under Lesson 1, or `on GitHub <https://github.com/geo-python/python-environments/>`__.
 
 **If you are already familiar with using git**, you can clone the repository containing the files by typing
 
@@ -87,13 +90,13 @@ For example, on macOS or Linux you would do the following.
     # Change to directory containing environment files
     cd python-environments
     
-    # Create the environment using mamba
+    # Create the environment using conda
     conda env create -f inl_inf_student.yml
 
     # Activate the new environment and update Jupyter
     # NOTE: conda is used to activate an environment!
     conda activate inl_inf_student
-    sh postBuild
+   
 
 This creates a new Python virtual environment called ``inl_inf_student``, which contains the packages listed in the file ``inl_inf_student.yml``. The new environment is helpful because it will be isolated from other Python packages you might install on your computer and ensure you have all of the packages needed for this course. Finally, the last steps will ensure that the Jupyter environment in the new Python installation has all of its extensions enabled (such as ``jupyterlab-git``).
 
@@ -134,27 +137,25 @@ The command above will clone the notebook files into a directory titled ``notebo
 Additional notes
 ----------------
 
-You can install new packages using the `mamba install <https://mamba.readthedocs.io/en/latest/user_guide/mamba.html>`__ command.
-The basic syntax for installing packages is ``mamba install package-name``.
-In addition, we also want to specify the **channel** from where the package is downloaded using the parameter ``-c``.
+You can install new packages using the `conda install`__ command.
+The basic syntax for installing packages is ``conda install package-name``.
 
 **Installing the pandas package from the conda-forge channel:**
 
 .. code-block:: bash
 
-    mamba install -c conda-forge pandas
+    conda install pandas
 
-Once you run this command, you will see also other packages getting installed and/or updated as mamba checks for dependencies of the installed package.
-Read more about package installations in the `mamba documentation <https://mamba.readthedocs.io/en/latest/advanced_usage/detailed_operations.html>`__
+Once you run this command, you will see also other packages getting installed and/or updated as conda checks for dependencies of the installed package.
 It's a good idea to search for installation instructions for each package online.
 
 .. admonition:: Conda channels
 
-    `Conda channels <https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html>`__ used by mamba and are remote locations where packages are stored.
+    `Conda channels <https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html>`__ used by conda and are remote locations where packages are stored.
     During this course (and in general when installing packages for scientific computing and GIS analysis) we download most packages from the `conda-forge <https://conda-forge.org/#about>`__ channel.
 
 .. admonition:: Conflicting packages
 
     A good rule of thumb is to **always install packages from the same channel** (for this course, we prefer the ``conda-forge`` channel).
     In case you encounter an error message when installing new packages, you might want to first check the versions and channels of existing
-    packages using the `mamba list` command before trying again.
+    packages using the `conda list` command before trying again.

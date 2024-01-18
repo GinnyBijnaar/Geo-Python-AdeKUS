@@ -1,13 +1,18 @@
 Course environment
 ==================
 
-During this course, we will use different tools and applications for programming and communications:
+During this course, we will use different tools and applications for programming and communications. This page gives a general overview of all the elements. In the next page, we will see how to install the needed programs.
 
-1. `Interactive code cells <#interactive-code-cells>`__ for live coding in the browser
-2. `JupyterLab`_ for the actual programming
-3. `Miniconda Python environment`_ To run our scripts
-4. `Git and GitHub`_ for version control and documentation
+1. `Moodle Course Page` _ for the initial sign up and sharing of files 
+2. `Interactive code cells <#interactive-code-cells>`__ for live coding in the browser
+3. `Miniconda Python environment`_ for installing Python and other packages
+4. `JupyterLab`_ for the actual programming
+5. `Git and GitHub`_ for version control and documentation
 
+Moodle Course Page
+----------------------
+The Moodle course page is where students officially sign up for the course. The lecturer will give the password for accessing the course page.
+The Moodle page will also be use to share some files. 
 
 Interactive code cells
 ----------------------
@@ -20,7 +25,12 @@ All pages with code cells can be turned into an interactive mode where you can r
 .. note::
 
     The interactive code cells are a new feature from the 2020 course materials that is still a bit experimental!
-    Remember, you can always open up the materials in Binder or CSC Notebooks and run the code in there.
+    Remember, you can always open up the materials in Binder and run the code in there.
+	
+Miniconda Python environment
+----------------------------
+
+In this course, you will work on your own computer. For that, you need to `install Python (via Miniconda) <../../lesson/L1/installing-miniconda.html>`_.	
 
 JupyterLab
 ----------
@@ -46,10 +56,7 @@ All of the course materials are available in a JupyterLab setting via `cloud com
 
    A Jupyter Notebook open in JupyterLab
 
-Miniconda Python environment
-----------------------------
 
-In this course, you will work on your own computer. For that, you need to `install Python (via Miniconda) <../../course-info/installing-miniconda.html>`_.
 
 Git and GitHub
 --------------
