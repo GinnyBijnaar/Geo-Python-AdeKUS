@@ -46,6 +46,7 @@ Install it for **all users** and use default settings.
 After the installation is completed, test that the package manager ``conda`` works by
 `opening a command prompt as an admin user <http://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1/>`_
 and running command ``conda --version``. If the command returns a version number of conda (e.g. ``conda 4.10.3``) everything is working correctly.
+Alternatively, you can search for and open the **Ananconda Powershell Prompt**. Here you can also run ``conda --version`` to check is everthing is alright. 
 
 
 Installing the Geo-Python packages
